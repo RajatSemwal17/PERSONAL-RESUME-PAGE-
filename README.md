@@ -37,32 +37,26 @@ Include testimonials or endorsements from colleagues/clients.
 
 4. Easy to Update & Share
 No need to resend files—just update your website, and everyone sees the latest version.
-
 Share via a simple link (e.g., yourname.com/resume) in emails, LinkedIn, or job applications.
 
 5. Demonstrates Technical & Digital Skills
 Having a personal website (especially if you built it yourself) proves tech-savviness.
-
 Great for web developers, designers, marketers, and content creators.
 
 6. More Engaging Than a PDF
 Recruiters spend only seconds scanning resumes—a well-designed webpage can hold attention longer.
-
 Use visual hierarchy, animations, or infographics to highlight key skills.
 
 7. Analytics & Tracking
 Use Google Analytics to see who visits your resume page.
-
 Track engagement (time spent, clicks) to improve content.
 
 8. Combines Resume + Portfolio in One Place
 Unlike a PDF, your website can link directly to projects, blogs, or certifications.
-
 Acts as a central hub for your professional identity.
 
 9. Mobile-Friendly & Accessible
 A responsive website works on any device (unlike PDFs, which may not display well on phones).
-
 Improves accessibility for recruiters on the go.
 
 10. Long-Term Career Asset
