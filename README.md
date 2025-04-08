@@ -11,3 +11,4 @@ This project is a creative and interactive login-based personal resume page desi
 📁 After successful login, users are redirected to your resume or portfolio page, where you can showcase your skills, projects, and achievements.
 
 🔥 This project blends HTML + CSS + JavaScript skills into one neat package, demonstrating your growth as a frontend developer and showing off your creativity and attention to user experience!
+🔥🔥
