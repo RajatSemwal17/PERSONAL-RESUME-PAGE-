@@ -1,4 +1,4 @@
-🚀 Project Title: Personal Resume Login Page 🔐
+🚀 Project Title: Personal Resume Login Page 🔐.
 
 This project is a creative and interactive login-based personal resume page designed to showcase your identity as a budding developer in a secure and stylish way. 💼✨
 
