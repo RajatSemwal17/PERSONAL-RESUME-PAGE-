@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="1.css"> -->
+    <link rel="stylesheet" href="11.css">
+</head>
+<body>
+
+    <!-- <marquee behavior="" direction="" style="font-size: 30px;color: white;margin-top: 20px;">MADE BY @itz_rajat17</marquee> -->
+    <!-- <form onsubmit="return login()" action="loading.html">
+        <h1>LOGIN</h1>
+        <div class="username">
+            <div><i class="fa-regular fa-user"></i></div>
+            <div><input type="text" placeholder="Type your username" id="username"></div>
+        </div>
+        <div class="password">
+            <div><i class="fa-solid fa-lock"></i></div>
+            <div class="ImgEye">
+                <input type="password" placeholder="Type your password" id="password">
+                <img src="IMG2.png" alt="" id="eyeIcon">
+            </div>
+        </div>
+    </div>
+    <p id="errors"></p>
+    <p style="color: blue;">Forgot password ?</p>
+    <div class="submit">
+        <input type="submit" value="Login">
+    </div>
+    <p id="up">or Sign up using</p>
+    <div class="icons">
+        <a href="https://www.facebook.com  ">
+            <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.twitter.com  ">
+                <i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.google.com  ">
+                    <i class="fa-brands fa-google"></i></a>
+                </div>
+        <p id="up">Or Sign Up using</p>
+        <p id="up" style="color: red;font-size: 30px;font-weight: 900;">SIGN UP</p>
+    </form> -->
+
+    <div class="container">
+        <h1 class="resume-heading">⚡ PERSONAL RESUME PAGE</h1>
+    
+        <form id="codeForm">
+          <div>
+            <input type="text" id="codeInput" placeholder="ENTER THE CODE">
+          </div>
+          <div>
+            <input type="submit" value="SUBMIT">
+          </div>
+        </form>
+      </div>
+    <!-- <script src="1.js"></script> -->
+
+    <script>
+        document.getElementById("codeForm").addEventListener("submit", function(e) {
+          e.preventDefault(); // Prevent form from submitting
+    
+          const enteredCode = document.getElementById("codeInput").value.trim();
+          const correctCode = "17RS06"; // Set your correct code here
+    
+          if (enteredCode === correctCode) {
+            window.location.href = "loading.html"; // Redirect on success
+          } else {
+            alert("❌ Incorrect Code! Try again.");
+          }
+        });
+      </script>
+</body>
+</html>
