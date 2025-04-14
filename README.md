@@ -63,7 +63,6 @@ Improves accessibility for recruiters on the go.
 Unlike a resume tailored for one job, your website can evolve with your career.
 Useful for freelancers, entrepreneurs, and job seekers at all levels.
 
-
 # 🔐 Login & Portfolio Web App
 
 ## 📌 Description
