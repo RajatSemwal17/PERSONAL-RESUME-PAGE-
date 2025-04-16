@@ -124,3 +124,27 @@ h3 {
     color: gold;
     font-size: 20px;
 }
+.faded {
+    opacity: 0.6;
+}
+
+.expand-btn {
+    background: none;
+    border: none;
+    color: #ff1e00;
+    font-weight: bold;
+    margin-top: 8px;
+    letter-spacing: 0.3em;
+    cursor: pointer;
+    font-family: "Emblema One", system-ui;
+    background-color: rgb(19, 21, 84);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    
+    transition: color 0.3s ease-in-out;
+}
+
+.expand-btn:hover {
+    color: #000000;
+    background-color: rgb(136, 136, 232);
+}
