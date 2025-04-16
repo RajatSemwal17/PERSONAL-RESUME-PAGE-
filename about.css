@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 body {
     font-family: 'Roboto', sans-serif;
     transition: background-color 0.4s ease, color 0.4s ease;
@@ -9,4 +8,19 @@ body {
     padding: 0;
     scroll-behavior: smooth;
     line-height: 1.6;
+}
+
+.dark {
+    background-color: #0d1117;
+    color: #e6edf3;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #1f1f1f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavoon', sans-serif;
+    letter-spacing: 1px;
 }
