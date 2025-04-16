@@ -55,4 +55,133 @@ body {
     filter: blur(13px);
 
 }
+#h1h1::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    z-index: -1;
+    padding: 3px;
+    background: conic-gradient(
+        /* transparent 70%, */
+        red ,
+        yellow,
+        green,
+        blue,
+        red
+    );
+}
+
+.skills{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.skills .h1 i{
+    color: white;
+    font-size: 45px;
+}
+.skills h1 .fa-html5{
+    color: orange;
+}
+.skills h1 .fa-css{
+    color: blue;
+}
+.skills h1 .fa-js{
+    color: yellow;
+}
+.skills h1 .fa-python{
+    background:linear-gradient(blue 50%,yellow 50%);
+    background-clip: text;
+    color:transparent;
+}
+.skills h1 .fa-react{
+    color: rgb(72, 72, 212);
+}
+.back-clr{
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    animation: anm 0.5s linear forwards;
+}
+.front-clr{
+    height: 15px;
+    width:0%;
+    border-radius: 20px;
+}
+.html{
+    background-color: orange;
+    animation: html 4s linear forwards;
+}
+.css{
+    background-color: blue;
+    animation: css 4s linear forwards;
+}
+.js{
+    background-color: yellow;
+    animation: js 4s linear forwards;
+}
+
+.python{
+    background:linear-gradient(blue 50%,yellow 50%);
+    animation: python 4s linear forwards;
+}
+.react{
+    background-color: rgb(72, 72, 212);
+    animation: react 4s linear forwards;
+}
+
+
+@keyframes anm{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes html{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+@keyframes css{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+@keyframes js{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+@keyframes python{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes react{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
 
