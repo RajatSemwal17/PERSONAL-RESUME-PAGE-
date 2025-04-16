@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-image: url('giphy.gif');
+    background-repeat: repeat; /* or no-repeat */
+    background-size: cover;    /* or contain */
+    background-position: center;
+}
+#h1h1{
+    font-size: 60px;
+    margin-top: 40px;
+    text-align: center;
+}
+#h1h1 span{
+    color: aqua;
+}
+
+#h1h1{
+    color: white;
+    font-size: 25px;
+    background-color: #081b29;
+    height: 150px;
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    left: 700px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+#h1h1::before{  
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    /* left: 300px; */
+    z-index: -1;
+    padding: 3px;
+    background: conic-gradient(
+        /* transparent 70%, */
+    red ,
+    yellow,
+    green,
+    blue,
+   red);
+    filter: blur(13px);
+
+}
+
