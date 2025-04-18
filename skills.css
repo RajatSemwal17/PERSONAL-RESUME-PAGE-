@@ -304,4 +304,55 @@ body {
             red
         );
     }
-
+.skills{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+    }
+    .skills .h1 i{
+        color: white;
+        font-size: 40px;
+    }
+    .skills h1 .fa-html5{
+        color: orange;
+    }
+    .skills h1 .fa-css{
+        color: blue;
+    }
+    .skills h1 .fa-js{
+        color: yellow;
+    }
+    .skills h1 .fa-python{
+        background:linear-gradient(blue 50%,yellow 50%);
+        background-clip: text;
+        color:transparent;
+    }
+    .skills h1 .fa-react{
+        color: rgb(72, 72, 212);
+    }
+    .back-clr{
+        height: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        animation: anm 0.5s linear forwards;
+    }
+    .front-clr{
+        height: 10px;
+        width:0%;
+        border-radius: 20px;
+    }
+    .html{
+        background-color: orange;
+        animation: html 4s linear forwards;
+    }
+    .css{
+        background-color: blue;
+        animation: css 4s linear forwards;
+    }
+    .js{
+        background-color: yellow;
+        animation: js 4s linear forwards;
+    }
+    
