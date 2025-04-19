@@ -59,7 +59,7 @@ img.interactive-image:hover {
     transition: background 0.3s ease;
 }
 
-#moon {
+#toggle {
     background-color: #4c4cff;
     color: white;
     border: none;
@@ -74,12 +74,12 @@ img.interactive-image:hover {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.dark #moon{
+.dark #toggle{
     box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.25);
 
 }
 
-#moon:hover {
+#toggle:hover {
     background-color: #1a1a8b;
     transform: scale(1.05);
 }
