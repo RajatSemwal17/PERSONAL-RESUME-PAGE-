@@ -83,3 +83,14 @@ img.interactive-image:hover {
     background-color: #1a1a8b;
     transform: scale(1.05);
 }
+
+.btn-primary {
+    background-color: #00b894;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
