@@ -126,3 +126,18 @@ a:hover {
     color: #fdcb6e;
     text-decoration: underline;
 }
+
+@media(max-width:900px){
+    #image{
+        height: 200px;
+        width: 200px;
+        margin-top: 3em;
+    }
+    .social-icons a {
+        color: inherit;
+        margin: 0 15px;
+        transition: transform 0.3s ease, color 0.3s ease;
+        font-size: 1em;
+    }
+}
+
