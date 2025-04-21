@@ -109,3 +109,7 @@ img.interactive-image:hover {
     color: #00ff99;
 }
 
+.fa-user, .fa-envelope, .fa-phone, .fa-birthday-cake, .fa-map-marker-alt, .fa-flag {
+    color: #2d3436;
+    margin-right: 14px;
+}
