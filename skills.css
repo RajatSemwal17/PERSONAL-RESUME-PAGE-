@@ -355,4 +355,98 @@ body {
         background-color: yellow;
         animation: js 4s linear forwards;
     }
+    .html{
+        background-color: orange;
+        animation: html 4s linear forwards;
+    }
+    .css{
+        background-color: blue;
+        animation: css 4s linear forwards;
+    }
+    .js{
+        background-color: yellow;
+        animation: js 4s linear forwards;
+    }
+    
+    .python{
+        background:linear-gradient(blue 50%,yellow 50%);
+        animation: python 4s linear forwards;
+    }
+    .react{
+        background-color: rgb(72, 72, 212);
+        animation: react 4s linear forwards;
+    }
+    
+    
+    @keyframes anm{
+        0%{
+            width:0%;
+        }
+        100%{
+            width: 60%;
+        }
+    }
+    @keyframes html{
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 90%;
+        }
+    }
+    @keyframes css{
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 80%;
+        }
+    }
+    @keyframes js{
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 60%;
+        }
+    }
+    @keyframes python{
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 70%;
+        }
+    }
+    @keyframes react{
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 50%;
+        }
+    }
+    
+    .loader{
+    height: 50px;
+    width: 50px;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    border-top-color: rgb(0, 255, 0);
+    border-bottom-color: rgb(43, 0, 255);
+    border-left-color: rgb(255, 0, 0);
+    border-right-color: rgb(255, 255, 0);
+    animation: loader 0.3s linear infinite;
+    }
+    .percentage{
+        color: yellow;
+        font-size: 900;
+        font-size: 20px;
+        animation: Percentage 10s linear forwards;
+        animation-delay:0s ;
+        text-align: end;
+        padding: 10px;
+        font-family: "Rubik Vinyl", serif;
+    }
+}
     
