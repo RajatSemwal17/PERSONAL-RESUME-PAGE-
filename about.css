@@ -98,4 +98,14 @@ img.interactive-image:hover {
     transform: scale(1.05);
 }
 
+.mb-4 p {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.dark .mb-4 p {
+    color: #00ff99;
+}
 
