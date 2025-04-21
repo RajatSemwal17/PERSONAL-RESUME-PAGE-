@@ -121,3 +121,8 @@ img.interactive-image:hover {
 a {
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
+
+a:hover {
+    color: #fdcb6e;
+    text-decoration: underline;
+}
