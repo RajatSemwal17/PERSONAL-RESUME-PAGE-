@@ -178,3 +178,58 @@ p{
     font-size: 20px;    
     color: #757575;
 }
+
+.bord{
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    transition: 0.3s all ease-in 0s;
+}
+.bord:hover{
+    color: #ff0000;
+}
+.one{
+    height: 35px;
+    width: 450px;
+    background-color:#e5dada;
+    border-radius: 20px;
+    
+}
+.onee{
+    height: 35px;
+    width: 450px;
+    background-color:#e5dada;
+    border-radius: 20px;
+    
+}
+
+.two{
+    height: 35px;
+    width: 405px;
+    background: linear-gradient(to right,red,orange);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.three{
+    height: 35px;
+    width: 360px;
+    background: linear-gradient(to right,red,orange);
+    border-radius: 20px;
+    text-align: center;
+    color: white;    
+    margin-top: 10px;
+
+}
+.four{
+    height: 35px;
+    width: 338px;
+    background: linear-gradient(to right,red,orange);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+
+}
