@@ -129,3 +129,52 @@ h1{
     font-family: "Mogra", system-ui;
 
 }
+.icons{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    height: 30px;
+    padding: 5px;
+    height: 200px;
+}
+i{
+    margin-left: 10px;
+    color: #009688;
+    font-size: 25px;
+}
+.text{
+    color: #ffffff;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+.text:hover{
+    color:rgb(255, 0, 225);
+    font-size: 25px;
+    
+}
+.font{
+    color: #757575;
+    margin-left: 20px;
+    font-size: 25px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+.font:hover{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    border-top-color: rgb(255, 140, 0);
+    border-bottom-color: rgb(255, 140, 0);
+
+}
+.skills{
+    height: 500px;
+}
+.percentage{
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;    
+    color: #757575;
+}
