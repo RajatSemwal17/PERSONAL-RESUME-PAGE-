@@ -307,3 +307,24 @@ five{
 .lang{
     margin-top: 27px;
 }
+foooter{
+    background-color: #000000;
+}
+/* CONTAINER-2 */
+.ct-2 i{
+    font-size: 50px;
+    margin-top: 200px;
+}
+.msg{
+    font-size: 50px;
+    color: #000000;
+    font-family: "Rampart One", sans-serif;
+    margin-left: 20px;
+    border:10px solid transparent;
+    transition: all 0.4s ease-in 0s;
+    cursor: pointer;
+}
+.msg:hover{
+    border-bottom-color: rgb(255, 0, 0);
+    
+}
