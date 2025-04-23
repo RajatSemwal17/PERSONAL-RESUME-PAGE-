@@ -233,3 +233,77 @@ p{
     margin-top: 10px;
 
 }
+five{
+    height: 35px;
+    width: 225px;
+    background: linear-gradient(to right,red,orange);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.text1{
+    color: #757575;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    transition: all 0.3s ease-in 0s;
+}
+.text1:hover{
+    color:darkgreen;
+    font-size: 29px;
+}
+
+.six{
+    height: 35px;
+    width: 450px;
+    background-color:#e5dada;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    transition: all 0.4s ease-in 0s;
+    cursor: pointer;
+}
+.six:hover{
+    height: 35px;
+    width: 390px;
+    background-color:rgb(255, 0, 43);
+}
+.seven{
+    height: 35px;
+    width: 450px;
+    background-color:#e5dada;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    transition: all 0.4s ease-in 0s;
+    cursor: pointer;
+}
+.seven:hover{
+    height: 35px;
+    width: 240px;
+    background-color:#d9ff00;
+}
+.eight{
+    height: 35px;
+    width: 450px;
+    background-color:#e5dada;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    transition: all 0.4s ease-in 0s;
+    cursor: pointer;
+}
+.eight:hover{
+    height: 35px;
+    width: 120px;
+    background-color:#180578;
+}
+
+.lang{
+    margin-top: 27px;
+}
