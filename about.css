@@ -1,143 +1,58 @@
+/* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Base Body Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    transition: background-color 0.4s ease, color 0.4s ease;
+    font-family: 'Roboto', sans-serif; /* Default font for body text */
+    transition: background-color 0.4s ease, color 0.4s ease; /* Smooth theme color transitions */
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    line-height: 1.6;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+    line-height: 1.6; /* Improves text readability */
 }
 
+/* Dark Theme Styles */
 .dark {
-    background-color: #0d1117;
-    color: #e6edf3;
+    background-color: #0d1117; /* Dark background */
+    color: #e6edf3; /* Light text for contrast */
 }
 
+/* Light Theme Styles */
 .light {
-    background-color: #ffffff;
-    color: #1f1f1f;
+    background-color: #ffffff; /* Light background */
+    color: #1f1f1f; /* Dark text for contrast */
 }
 
+/* Headings Styles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Kavoon', sans-serif;
-    letter-spacing: 1px;
+    font-family: 'Kavoon', sans-serif; /* Decorative font for headings */
+    letter-spacing: 1px; /* Adds space between letters */
 }
 
+/* Interactive Image Styling */
 img.interactive-image {
-    border-radius: 15px;
-    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3);
-    transition: transform 0.4s ease, box-shadow 0.3s ease;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    transition: transform 0.4s ease, box-shadow 0.3s ease; /* Smooth hover effects */
 }
 
+/* Hover Effects for Interactive Images */
 img.interactive-image:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
 }
 
+/* Social Icons Styling */
 .social-icons a {
-    color: inherit;
-    margin: 0 15px;
-    transition: transform 0.3s ease, color 0.3s ease;
-    font-size: 1.8em;
+    color: inherit; /* Inherit current text color */
+    margin: 0 15px; /* Space between icons */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth animations */
+    font-size: 1.8em; /* Increase icon size */
 }
 
+/* Hover Effects for Social Icons */
 .social-icons a:hover {
-    transform: scale(1.25);
-    color: #ff6600;
+    transform: scale(1.25); /* Enlarge on hover */
+    color: #ff6600; /* Highlight color on hover */
 }
-
-.box {
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    color: white;
-    border-radius: 15px;
-    padding: 25px;
-    margin-top: 30px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-    font-size: 1.1em;
-    transition: background 0.3s ease;
-}
-
-#toggle {
-    background-color: #4c4cff;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 12px 20px;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 999;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.dark #toggle{
-    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.25);
-
-}
-
-#toggle:hover {
-    background-color: #1a1a8b;
-    transform: scale(1.05);
-}
-
-.btn-primary {
-    background-color: #00b894;
-    border: none;
-    padding: 12px 24px;
-    font-weight: bold;
-    border-radius: 10px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.btn-primary:hover {
-    background-color: #0984e3;
-    transform: scale(1.05);
-}
-
-.mb-4 p {
-    font-family: 'Alumni Sans', sans-serif;
-    font-size: 1.3em;
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-
-.dark .mb-4 p {
-    color: #00ff99;
-}
-
-.fa-user, .fa-envelope, .fa-phone, .fa-birthday-cake, .fa-map-marker-alt, .fa-flag {
-    color: #2d3436;
-    margin-right: 14px;
-}
-
-.dark .fa-user, .dark .fa-envelope, .dark .fa-phone, .dark .fa-birthday-cake, .dark .fa-map-marker-alt, .dark .fa-flag {
-    color: #81ecec;
-}
-
-a {
-    transition: color 0.3s ease, text-decoration 0.3s ease;
-}
-
-a:hover {
-    color: #fdcb6e;
-    text-decoration: underline;
-}
-
-@media(max-width:900px){
-    #image{
-        height: 200px;
-        width: 200px;
-        margin-top: 3em;
-    }
-    .social-icons a {
-        color: inherit;
-        margin: 0 15px;
-        transition: transform 0.3s ease, color 0.3s ease;
-        font-size: 1em;
-    }
-}
-
