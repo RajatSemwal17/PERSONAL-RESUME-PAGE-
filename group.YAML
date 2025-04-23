@@ -1,0 +1,21 @@
+name: Deploy Resume Page to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # This triggers the workflow when changes are pushed to the 'main' branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # The job will run on the latest version of Ubuntu
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # Checkout the repository code
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4  # GitHub action for deploying to Pages
+        with:
+          branch: gh-pages  # The branch GitHub Pages will use (gh-pages is the default)
+          folder: .  # The folder to deploy (root folder in this case, since it's an HTML page)
+          token: ${{ secrets.GITHUB_TOKEN }}  # Authentication token provided by GitHub

@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-image: url('giphy.gif');
+    background-repeat: repeat; /* or no-repeat */
+    background-size: cover;    /* or contain */
+    background-position: center;
+}
+#h1h1{
+    font-size: 60px;
+    margin-top: 40px;
+    text-align: center;
+}
+#h1h1 span{
+    color: aqua;
+}
+
+#h1h1{
+    color: white;
+    font-size: 25px;
+    background-color: #081b29;
+    height: 150px;
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    left: 700px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+#h1h1::before{  
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    /* left: 300px; */
+    z-index: -1;
+    padding: 3px;
+    background: conic-gradient(
+        /* transparent 70%, */
+    red ,
+    yellow,
+    green,
+    blue,
+   red);
+    filter: blur(13px);
+
+}
+#h1h1::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    z-index: -1;
+    padding: 3px;
+    background: conic-gradient(
+        /* transparent 70%, */
+        red ,
+        yellow,
+        green,
+        blue,
+        red
+    );
+}
+
+.skills{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.skills .h1 i{
+    color: white;
+    font-size: 45px;
+}
+.skills h1 .fa-html5{
+    color: orange;
+}
+.skills h1 .fa-css{
+    color: blue;
+}
+.skills h1 .fa-js{
+    color: yellow;
+}
+.skills h1 .fa-python{
+    background:linear-gradient(blue 50%,yellow 50%);
+    background-clip: text;
+    color:transparent;
+}
+.skills h1 .fa-react{
+    color: rgb(72, 72, 212);
+}
+.back-clr{
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    animation: anm 0.5s linear forwards;
+}
+.front-clr{
+    height: 15px;
+    width:0%;
+    border-radius: 20px;
+}
+.html{
+    background-color: orange;
+    animation: html 4s linear forwards;
+}
+.css{
+    background-color: blue;
+    animation: css 4s linear forwards;
+}
+.js{
+    background-color: yellow;
+    animation: js 4s linear forwards;
+}
+
+.python{
+    background:linear-gradient(blue 50%,yellow 50%);
+    animation: python 4s linear forwards;
+}
+.react{
+    background-color: rgb(72, 72, 212);
+    animation: react 4s linear forwards;
+}
+
+
+@keyframes anm{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes html{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+@keyframes css{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+@keyframes js{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+@keyframes python{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes react{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+}
+.loader{
+    height: 70px;
+    width: 70px;
+    border: 10px solid red;
+    border-radius: 50%;
+    border-top-color: rgb(0, 255, 0);
+    border-bottom-color: rgb(43, 0, 255);
+    border-left-color: rgb(255, 0, 0);
+    border-right-color: rgb(255, 255, 0);
+    animation: loader 0.4s linear infinite;
+}
+@keyframes loader{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+.percentage{
+    color: yellow;
+    font-size: 900;
+    font-size: 30px;
+    animation: Percentage 10s linear forwards;
+    animation-delay:0s ;
+    text-align: end;
+    padding: 10px;
+    font-family: "Rubik Vinyl", serif;
+}
+.circle{
+    height: 100px;
+    
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    background-color: #081b29;
+    
+}
+
+
+
+@keyframes Percentage{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/* media  */
+@media(max-width:900px){
+    #h1h1{
+        font-size: 60px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    #h1h1 .heading{
+        font-size: 30px;
+    }
+    #h1h1 span{
+        color: aqua;
+    }
+    #h1h1{
+        color: white;
+        font-size: 25px;
+        background-color: #081b29;
+        height: 80px;
+        width: 250px;
+        padding: 20px;
+        position: absolute;
+        top: 50px;
+        left:55px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+    }
+    
+    #h1h1::before{  
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: 10px;
+        /* left: 300px; */
+        z-index: -1;
+        padding: 3px;
+        background: conic-gradient(
+            /* transparent 70%, */
+        red ,
+        yellow,
+        green,
+        blue,
+       red);
+        filter: blur(13px);
+        animation: 3s rotate linear infinite;
+    
+    }
+    #h1h1::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: 10px;
+        z-index: -1;
+        padding: 3px;
+        background: conic-gradient(
+            /* transparent 70%, */
+            red ,
+            yellow,
+            green,
+            blue,
+            red
+        );
+    }
+.skills{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+    }
+    .skills .h1 i{
+        color: white;
+        font-size: 40px;
+    }
+    .skills h1 .fa-html5{
+        color: orange;
+    }
+    .skills h1 .fa-css{
+        color: blue;
+    }
+    .skills h1 .fa-js{
+        color: yellow;
+    }
+    .skills h1 .fa-python{
+        background:linear-gradient(blue 50%,yellow 50%);
+        background-clip: text;
+        color:transparent;
+    }
+    .skills h1 .fa-react{
+        color: rgb(72, 72, 212);
+    }
+    .back-clr{
+        height: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        animation: anm 0.5s linear forwards;
+    }
+    .front-clr{
+        height: 10px;
+        width:0%;
+        border-radius: 20px;
+    }
+    .html{
+        background-color: orange;
+        animation: html 4s linear forwards;
+    }
+    .css{
+        background-color: blue;
+        animation: css 4s linear forwards;
+    }
+    .js{
+        background-color: yellow;
+        animation: js 4s linear forwards;
+    }
+    .html{
+        background-color: orange;
+        animation: html 4s linear forwards;
+    }
+    .css{
+        background-color: blue;
+        animation: css 4s linear forwards;
+    }
+    .js{
+        background-color: yellow;
+        animation: js 4s linear forwards;
+    }
+    
+    .python{
+        background:linear-gradient(blue 50%,yellow 50%);
+        animation: python 4s linear forwards;
+    }
+    .react{
+        background-color: rgb(72, 72, 212);
+        animation: react 4s linear forwards;
+    }
+    
+    
+    @keyframes anm{
+        0%{
+            width:0%;
+        }
+        100%{
+            width: 60%;
+        }
+    }
+    @keyframes html{
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 90%;
+        }
+    }
+    @keyframes css{
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 80%;
+        }
+    }
+    @keyframes js{
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 60%;
+        }
+    }
+    @keyframes python{
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 70%;
+        }
+    }
+    @keyframes react{
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 50%;
+        }
+    }
+    
+    .loader{
+    height: 50px;
+    width: 50px;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    border-top-color: rgb(0, 255, 0);
+    border-bottom-color: rgb(43, 0, 255);
+    border-left-color: rgb(255, 0, 0);
+    border-right-color: rgb(255, 255, 0);
+    animation: loader 0.3s linear infinite;
+    }
+    .percentage{
+        color: yellow;
+        font-size: 900;
+        font-size: 20px;
+        animation: Percentage 10s linear forwards;
+        animation-delay:0s ;
+        text-align: end;
+        padding: 10px;
+        font-family: "Rubik Vinyl", serif;
+    }
+}
+    
+/* === Scroll to Top Button === */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  height: 50px;
+  width: 50px;
+  background-color: #081b29;
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#scrollTopBtn:hover {
+  background-color: aqua;
+}

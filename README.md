@@ -62,3 +62,21 @@ Improves accessibility for recruiters on the go.
 10. Long-Term Career Asset
 Unlike a resume tailored for one job, your website can evolve with your career.
 Useful for freelancers, entrepreneurs, and job seekers at all levels.
+
+# 🔐 Login & Portfolio Web App
+
+## 📌 Description
+A sleek, dark-mode responsive login page that doubles as a gateway to my personal portfolio. This web app is crafted using HTML, CSS, and JavaScript, and is designed with an engaging UI and a smooth user experience. It includes a modern password visibility toggle, basic validation, social media login buttons, and a unique entry system using a secret code. The portfolio is neatly integrated and accessible from the resume section.
+
+## 🚀 Features
+- 🌑 Dark mode user interface
+- 📱 Mobile & 💻 desktop responsive layout
+- 👁️ Eye icon toggle for password visibility
+- ❌ Error handling and input validation
+- 🔗 Social media login buttons (Facebook, X, Google)
+- 🧾 Link to portfolio from resume page
+- 🔐 Secret code login option (instead of username/password)
+- ⚙️ Clean code structure with external JS & CSS
+
+## 🎯 Purpose
+To demonstrate my frontend development skills in creating clean, functional, and stylish web interfaces. This project is both a learning experience and a live portfolio entry for personal and academic use.

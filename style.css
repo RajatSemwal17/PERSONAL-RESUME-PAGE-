@@ -1,4 +1,4 @@
-[200~footer{
+
  footer{
     background-image: url(FOOTERIMAGE.jpg);
     background-size: contain;
@@ -50,3 +50,73 @@
     margin-top: 20px;
     font-weight: 500;
 } 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DynaPuff:wght@400..700&family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bungee+Spice&family=Chokokutai&family=DynaPuff:wght@400..700&family=Faculty+Glyphic&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kode+Mono:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Graduate&display=swap');
+
+::selection {
+    background-color: #ddd0e19c;
+    color: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+.textEff{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 75px;
+    color: #757575;
+}
+.auto-type{
+    color: rgb(255, 0, 0);
+}
+#moon{
+    
+    text-align:end;
+    padding: 20px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.fa-moon{
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+}
+.fa-sun{
+    font-size: 42px;
+    color: yellow;
+}
+.light, .dark {
+    transition: background-color 0.2s ease-in;
+}
+
+.light {
+    background-color: rgb(224, 213, 215);
+}
+
+.dark {
+    /* background: rgb(0, 0, 0); */
+    background-image: url(giphy\ \(4\).gif);
+}
+#moon i{
+    transition: all 0.2s ease-in;
+}
