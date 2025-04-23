@@ -414,3 +414,128 @@ img{
     height: 300px;
     width: 600px;
 }
+.ct-4{
+    height: 450px;
+    width: 500px;
+    background-image:url(wss.jpg);
+    background-size: cover;
+    margin-top: 220px;
+    border-radius: 20px;
+    border: 10px solid transparent;
+    box-shadow: 5px 5px 20px grey;
+}
+.btnnnn{
+    margin-top: 20px;
+    margin-left: 150px;
+    color:black;
+    padding: 20px;
+    background: linear-gradient(43deg,red 50%,rgb(244, 143, 92) 50%);
+    border: none;
+    outline: none;
+    font-weight: 900;
+}
+.btnnnn:hover{
+    background: linear-gradient(43deg,rgb(244, 143, 92) 50%,red 50%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.modal-body{
+    color: rgb(24, 164, 50);
+    word-spacing: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Bebas Neue", serif;
+    text-shadow:2px 2px 2px  red;
+}
+.main{
+background-color: black;
+}
+#exampleModalLabel{
+color: red;
+font-weight: 900;
+}
+#coding{
+    height: 250px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 9%;
+    box-shadow: 5px 5px 20px aqua;
+    border-radius: 20px;
+}
+.btn-close{
+    background-color: rgb(0, 255, 255);
+}
+.nav-bar{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    background: linear-gradient(to right,rgb(255, 255, 255),grey);
+    position: fixed;
+}
+.anchor{
+    color: #000000;
+    margin-left: 190px;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.2s ease-in 0s;
+}
+.anchor:hover{
+
+    border-top-color: rgb(69, 52, 144);
+    border-bottom-color: rgb(69,52,144);
+    color: rgb(255, 0, 230);
+}
+.fa-sliders{
+    color: blue;
+    font-size: 40px;
+    display: none;
+    transition:all 0.8s ease-in 0s;
+}
+.fa-sliders:hover{
+    transform: scale(1.2,1.4) rotate(360deg);
+}
+.loader{
+    height: 40px;
+    width:40px;
+    border: 10px solid black;
+    border-radius: 50%;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-top-color: rgb(251, 6, 6);
+    border-right-color: rgb(251, 6, 6);
+    transition: all 2s ease-in 0s;
+    animation: LOADER 0.5s ease-in-out 0s infinite alternate-reverse;
+}
+
+.portfolio{
+    border: 2px solid black;
+    width: 400px;
+    margin-bottom: 2em;
+    border-radius: 1.3em;
+    background-color: rgb(99, 138, 217);
+    padding:1em;
+    margin-left: 40%;
+    transition: all 0.6s ease-in-out 0s;
+    cursor: pointer;
+}
+.portfolio:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 30px rgb(17, 0, 255);
+    transform: rotate(360deg);
+}
+.portfolio a{
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    font-family: "Alumni Sans", sans-serif;
+}
+
+@keyframes LOADER{
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}
+}
