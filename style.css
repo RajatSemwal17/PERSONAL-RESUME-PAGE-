@@ -539,3 +539,88 @@ font-weight: 900;
     from{rotate: 0deg;}
     to{rotate: 360deg;}
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width:900px){
+    .portfolio{
+        border: 2px solid black;
+        position: absolute;
+        width: 200px;
+        margin-top: 49em;
+        margin-bottom: 20em;
+        border-radius: 1.3em;
+        background-color: rgb(99, 138, 217);
+        padding:1em;
+        margin-left: 25%;
+        transition: all 0.6s ease-in-out 0s;
+        cursor: pointer;
+        height: 60px;
+    }
+    .portfolio a{
+        color: white;
+        font-size:1.4em;
+        text-decoration: none;
+        font-family: "Alumni Sans", sans-serif;
+    }
+    footer{
+        margin-top: 20em;
+    }
+}
+
+@media(max-width:1710px){
+    
+    .anchor{
+        font-size: 16px;
+        color: red;
+        display: none;
+    }
+    .nav-bar i{
+        display: block;
+    }
+}
+
+.butn{
+    height: 100px;
+    width: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    transition: all 0.2s ease-in 0s;
+}
+.butn:hover{
+    box-shadow: 5px 5px 50px rgb(0, 251, 255);}
+.butn i{
+    color: rgb(255, 0, 187);
+    text-align: center;
+    font-size: 35px;
+    transition: all 0.2s ease-in 0s;
+}
+.butn i:hover{
+    color: red;
+    font-size: 60px;
+} 
+#downloadBtn{
+    font-size: 20px;
+    background-color: rgb(255, 65, 96);
+    border-radius: 10px;
+    color: aliceblue;
+    font-family:Lato, sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    padding-right: 40px;
+    border: none;
+    font-weight: 900;
+    transition: transform 0.3s ease;
+    position: absolute;
+    right: 100px;
+    /* margin-top: 30px; */
+}
+
+#downloadBtn:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
