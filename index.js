@@ -10,6 +10,7 @@ if (currMode === "dark") {
     body.classList.add("light");
     moon.querySelector("i").classList.replace("fa-sun", "fa-moon");
 }
+
 // ☀️ Toggle on click
 moon.addEventListener("click", () => {
     if (currMode === "light") {
@@ -23,6 +24,7 @@ moon.addEventListener("click", () => {
         body.classList.remove("dark");
         moon.querySelector("i").classList.replace("fa-sun", "fa-moon");
     }
+    
 localStorage.setItem("theme", currMode); // 💾 Save preference
     console.log(currMode);
 });
