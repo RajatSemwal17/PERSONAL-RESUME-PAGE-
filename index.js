@@ -38,3 +38,8 @@ download.addEventListener("click", () => {
     let fileName = getFileName(imgpath);
     downloadImage(imgpath, fileName);
 });
+    
+function getFileName(str) {
+    return str.substring(str.lastIndexOf('/') + 1);
+}
+    
