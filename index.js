@@ -28,3 +28,13 @@ moon.addEventListener("click", () => {
 localStorage.setItem("theme", currMode); // 💾 Save preference
     console.log(currMode);
 });
+
+// DOWNLOAD BUTTON
+let download = document.querySelector("#downloadBtn");
+let img = document.querySelector("img");
+    
+download.addEventListener("click", () => {
+    let imgpath = img.getAttribute('src');
+    let fileName = getFileName(imgpath);
+    downloadImage(imgpath, fileName);
+});
