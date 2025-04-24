@@ -33,6 +33,7 @@ body {
 .container:hover {
     transform: scale(1.02);
 }
+
 .title {
     text-align: center;
     font-size:2.5em;
@@ -125,6 +126,7 @@ h3 {
     color: gold;
     font-size: 20px;
 }
+
 .faded {
     opacity: 0.6;
 }
@@ -149,6 +151,7 @@ h3 {
     color: #000000;
     background-color: rgb(136, 136, 232);
 }
+
 more-info {
     max-height: 0;
     overflow: hidden;
