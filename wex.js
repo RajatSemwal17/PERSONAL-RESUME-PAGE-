@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener("click", function () {
             const moreInfo = this.nextElementSibling;
             moreInfo.classList.toggle("show");
-             if (moreInfo.classList.contains("show")) {
+            if (moreInfo.classList.contains("show")) {
                 this.textContent = "Show Less ⬆";
-            }else {
+            } else {
                 this.textContent = "Show More ⬇";
             }
-            });
+        });
     });
 });
