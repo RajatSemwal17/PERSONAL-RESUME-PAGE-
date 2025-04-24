@@ -6,4 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
             moreInfo.classList.toggle("show");
              if (moreInfo.classList.contains("show")) {
                 this.textContent = "Show Less ⬆";
+            }else {
+                this.textContent = "Show More ⬇";
             }
