@@ -9,3 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }else {
                 this.textContent = "Show More ⬇";
             }
+            });
+    });
+});
