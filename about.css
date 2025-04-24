@@ -56,3 +56,114 @@ img.interactive-image:hover {
     transform: scale(1.25); /* Enlarge on hover */
     color: #ff6600; /* Highlight color on hover */
 }
+
+/* .box: Style for the main box element */
+.box {     
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background from purple to blue */
+    color: white; /* White text color */
+    border-radius: 15px; /* Rounded corners */
+    padding: 25px; /* Padding inside the box */
+    margin-top: 30px; /* Top margin to space out from other elements */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow around the box */
+    font-size: 1.1em; /* Slightly larger font */
+    transition: background 0.3s ease; /* Smooth transition for background color change */
+}
+
+/* #toggle: Style for the toggle button */
+#toggle {     
+    background-color: #4c4cff; /* Blue background for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 12px 20px; /* Padding inside the button */
+    position: fixed; /* Fixed position to stay in place on the screen */
+    top: 20px; /* 20px from the top of the screen */
+    left: 20px; /* 20px from the left of the screen */
+    z-index: 999; /* Ensure the button stays on top of other content */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25); /* Shadow to make the button stand out */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth background and scale transition */
+}
+
+/* .dark #toggle: Style for toggle button in dark mode */
+.dark #toggle {
+    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.25); /* Lighter shadow in dark mode */
+}
+
+/* #toggle:hover: Hover effect for toggle button */
+#toggle:hover {     
+    background-color: #1a1a8b; /* Change background to darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* .btn-primary: Style for primary button */
+.btn-primary {     
+    background-color: #00b894; /* Greenish background color */
+    border: none; /* No border */
+    padding: 12px 24px; /* Padding inside the button */
+    font-weight: bold; /* Bold font for the button text */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth background and scale transition */
+}
+
+/* .btn-primary:hover: Hover effect for primary button */
+.btn-primary:hover {     
+    background-color: #0984e3; /* Change background color to blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* .mb-4 p: Style for paragraphs with class .mb-4 */
+.mb-4 p {     
+    font-family: 'Alumni Sans', sans-serif; /* Font family */
+    font-size: 1.3em; /* Slightly larger text size */
+    margin-bottom: 10px; /* Margin at the bottom of the paragraph */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+/* .dark .mb-4 p: Paragraph style in dark mode */
+.dark .mb-4 p {     
+    color: #00ff99; /* Green color for text in dark mode */
+}
+
+/* Icon styles for user, email, phone, etc. */
+.fa-user, .fa-envelope, .fa-phone, .fa-birthday-cake, .fa-map-marker-alt, .fa-flag {     
+    color: #2d3436; /* Default icon color */
+    margin-right: 14px; /* Spacing between icons */
+}
+
+/* .dark .fa-* icons: Icon color in dark mode */
+.dark .fa-user, .dark .fa-envelope, .dark .fa-phone, .dark .fa-birthday-cake, .dark .fa-map-marker-alt, .dark .fa-flag {     
+    color: #81ecec; /* Light blue icon color in dark mode */
+}
+
+/* Anchor tag styling */
+a {     
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for color and text-decoration */
+}
+
+/* Anchor hover effect */
+a:hover {     
+    color: #fdcb6e; /* Change color to yellow on hover */
+    text-decoration: underline; /* Underline the text on hover */
+}
+
+/* Media query for responsive design (for screens less than 900px) */
+@media(max-width:900px) {     
+    #image {         
+        height: 200px; /* Reduce the image height */
+        width: 200px; /* Reduce the image width */
+        margin-top: 3em; /* Add top margin */
+    }
+
+    /* Social icons styling for smaller screens */
+    .social-icons a {         
+        color: inherit; /* Inherit color */
+        margin: 0 15px; /* Margin around icons */
+        transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for transform and color */
+        font-size: 1em; /* Set font size to 1em */
+    }
+}
+
+
+
+
