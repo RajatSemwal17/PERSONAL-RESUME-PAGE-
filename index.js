@@ -59,4 +59,11 @@ var typed = new Typed(".auto-type",{
     backSpeed:50,
     looped:true
 })    
-    
+
+
+
+
+
+// loader
+
+
