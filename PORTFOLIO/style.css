@@ -50,3 +50,58 @@ body{
 .para2{
     color: black;
 }
+nav{
+    height: 60px;
+    border: 1px solid transparent;
+    border-bottom-color: rgba(139, 137, 137, 0.861);
+    font-family: "Raleway", serif;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+#name{
+    position: relative;
+    right: 30em;
+    font-weight: 900;
+    font-family: "Major Mono Display", serif;
+    background: linear-gradient(to right,white 40%,rgb(26, 1, 255) 50%);
+    background-clip: text;
+    color: transparent;
+    font-size: 2em;
+    display: block;
+}
+
+nav ul{
+    position: relative;
+    margin-right: 2em;
+    top: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3em;
+}
+nav ul li a{
+    font-size: 1.20em;
+    font-weight: 430;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out 0s;
+}
+nav ul li a{
+    color: black; 
+}
+
+.dark nav ul li a{
+    color: #ffffff; 
+}
+.dark nav ul li a:hover{
+    color: rgb(36, 188, 69);
+}
+nav ul li a:hover{
+    color: rgb(36, 117, 188);
+}
+#hamburger-menu{
+    font-size: 1.5em;
+    position: absolute;
+    color: red;
+    top: 0.6em;
+    right: 2em;
+    display: none;
+}
