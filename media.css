@@ -303,3 +303,13 @@
     .opp:hover{
         color: black;
     }
+.txx{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size:15px;
+        color: #960000;
+    }
+    .fa-calendar-days{
+        color: #aaca0c;
+    }
+
