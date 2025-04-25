@@ -341,5 +341,14 @@
         font-size: 14px;
         font-family: 'Oswald', sans-serif;
     }
+.container-3{
+        height:1000px;
+        width: 302px;
+        margin-top: 150px;
+        box-shadow: 2px 2px 20px rgb(140, 124, 124);
+        border-radius: 20px;
+        background: linear-gradient(90deg,rgb(224, 224, 44) 50%,rgb(166, 212, 38) 50%);
+    }
+
 
 
