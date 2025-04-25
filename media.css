@@ -102,3 +102,44 @@
         transition: all 0.3s ease-in 0s;
     }
 }
+.text:hover{
+        color:rgb(255, 0, 225);
+        font-size: 17px;
+        
+    }
+    .font{
+        color: #000000;
+        margin-left: 20px;
+        font-weight: 900;
+        font-size: 20px;
+        border: 3px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease-in 0s;
+    }
+    .font:hover{
+        color: rgb(255, 0, 0);
+        font-size: 25px;
+        border-top-color: rgb(255, 140, 0);
+        border-bottom-color: rgb(255, 140, 0);
+    
+    }
+    .skills{
+        height: 500px;
+    }
+    .percentage{
+        margin-top: 20px;
+    }
+    p{
+        font-size: 16px;    
+        color: #757575;
+    }
+    .bord{
+        color: rgb(3, 243, 3);
+        cursor: pointer;
+        font-weight: 400;
+        font-family: "Oswald", sans-serif;
+        transition: 0.3s all ease-in 0s;
+    }
+    .bord:hover{
+        color: #ff0000;
+    }
