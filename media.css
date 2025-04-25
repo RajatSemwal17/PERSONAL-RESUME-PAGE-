@@ -208,3 +208,56 @@
         color:darkgreen;
         font-size: 24px;
     }
+.six{
+        height: 25px;
+        width: 280px;
+        background-color:#e5dada;
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        transition: all 0.4s ease-in 0s;
+        cursor: pointer;
+    }
+    .six:hover{
+        height: 25px;
+        width: 250px;
+        background-color:rgb(255, 0, 43);
+    }
+    .seven{
+        height: 25px;
+        width: 280px;
+        background-color:#e5dada;
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        transition: all 0.4s ease-in 0s;
+        cursor: pointer;
+    }
+    .seven:hover{
+        height: 25px;
+        width: 200px;
+        background-color:#d9ff00;
+    }
+    .eight{
+        height: 25px;
+        width: 280px;
+        background-color:#e5dada;
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        transition: all 0.4s ease-in 0s;
+        cursor: pointer;
+    }
+    .eight:hover{
+        height: 25px;
+        width: 80px;
+        background-color:#180578;
+    }
+    
+    .lang{
+        margin-top: 27px;
+    }
+
