@@ -143,3 +143,37 @@
     .bord:hover{
         color: #ff0000;
     }
+ .one{
+        height: 25px;
+        width: 280px;
+        background-color:#e5dada;
+        border-radius: 20px;
+        
+    }
+    .onee{
+        height: 25px;
+        width: 280px;
+        background-color:#e5dada;
+        border-radius: 20px;
+        
+    }
+    
+    .two{
+        height: 25px;
+        width: 252px;
+        background: linear-gradient(to right,red,orange);
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+    }
+    .three{
+        height: 25px;
+        width: 224px;
+        background: linear-gradient(to right,red,orange);
+        border-radius: 20px;
+        text-align: center;
+        color: white;    
+        margin-top: 10px;
+    
+    }
