@@ -387,7 +387,15 @@
         border: 10px solid transparent;
         box-shadow: 5px 5px 20px grey;
     }
-
+ .btnnnn{
+        margin-top: 20px;
+        margin-left: 100px;
+        color:black;
+        background: linear-gradient(10deg,red 50%,pink 50%);
+        border: none;
+        outline: none;
+        font-weight: 900;
+    }
 
 
 
