@@ -177,3 +177,34 @@
         margin-top: 10px;
     
     }
+ .four{
+        height: 25px;
+        width: 210px;
+        background: linear-gradient(to right,red,orange);
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+    
+    }
+    .five{
+        height: 25px;
+        width: 140px;
+        background: linear-gradient(to right,red,orange);
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+    }
+    .text1{
+        color: #dfef00;
+        font-size: 20px;
+        margin-left: 20px;
+        cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        transition: all 0.3s ease-in 0s;
+    }
+    .text1:hover{
+        color:darkgreen;
+        font-size: 24px;
+    }
