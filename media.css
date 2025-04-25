@@ -328,4 +328,18 @@
         transform: scale(1.1);
         transition: 0.3s ease-in-out;
     }
+ .para{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid red;
+        padding: 20px;
+        background-color: #cde3d244;
+        border-radius: 10px;
+        color: black;
+        font-size: 14px;
+        font-family: 'Oswald', sans-serif;
+    }
+
 
