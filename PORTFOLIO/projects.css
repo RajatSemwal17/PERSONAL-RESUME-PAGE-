@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: no-repeat;
+}
+#h1{
+    text-align: center;
+    margin-top: 1em;
+    font-family: "Orbitron", serif;
+    color: rgba(25, 22, 22, 0.778);
+    letter-spacing: 0.4em;
+    text-decoration: underline;
+}
+.dark #h1{
+    color: white;
+}
+
+.proj{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.proj1{
+    height: 330px;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid rgb(59, 56, 56);
+    background-color: transparent;
+    box-shadow: 1px 1px 14px rgb(0, 0, 0);
+    border-radius: 0.6em;
+    transition: all 0.3s ease-in-out 0s ;
+}
+.proj1:hover{
+    transform: scale(1.09,1.09);
+}
+.dark .proj1{
+    border: 1px solid white;
+    background-color: transparent;
+    box-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+.proj1 img{
+    height: 30%;
+    width: 100%;
+}
