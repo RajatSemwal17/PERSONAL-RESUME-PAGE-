@@ -34,3 +34,25 @@ body{
     font-size: 1.6em;
     font-family: "Agdasima", serif;
 }
+.light #aboutCont{
+    color: black;
+}
+nav{
+    height: 60px;
+    border: 1px solid transparent;
+    border-bottom-color: rgba(139, 137, 137, 0.861);
+    font-family: "Raleway", serif;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+#name{
+    position: relative;
+    right: 30em;
+    font-weight: 900;
+    font-family: "Major Mono Display", serif;
+    background: linear-gradient(to right,white 40%,rgb(26, 1, 255) 50%);
+    background-clip: text;
+    color: transparent;
+    font-size: 1.5em;
+    display: block;
+}
