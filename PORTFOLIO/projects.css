@@ -57,3 +57,22 @@ body{
     height: 30%;
     width: 100%;
 }
+#projHead{
+    font-size: 1.1em;
+    margin-top: 1em;
+    font-weight: 900;
+    color: rgb(17, 9, 119);
+    text-decoration:rgb(17, 9, 119) underline;  font-family: "Nixie One", serif;
+}
+.dark #projHead{
+    color: rgb(38, 0, 255);
+} 
+#projCont{
+    margin-top: 0.5em;
+    font-size: 1.4em;
+    color: rgb(32, 27, 31); 
+    font-family: "Agdasima", serif;
+}
+.dark #projCont{
+    color: white;
+}
