@@ -42,4 +42,12 @@ download.addEventListener("click", () => {
 function getFileName(str) {
     return str.substring(str.lastIndexOf('/') + 1);
 }
+   
+function downloadImage(imgpath, fileName) {
+    let a = document.createElement('a');
+    a.href = imgpath;
+    a.download = fileName;
+    a.click();
+}
+    
     
