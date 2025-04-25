@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+body{
+    height: 100vh;
+    background: no-repeat;
+}
+#rajat{
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    right: 3em;
+    top: 5em;
+    box-shadow: 2px 2px 20px white;
+}
