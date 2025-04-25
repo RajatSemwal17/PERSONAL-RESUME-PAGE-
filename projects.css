@@ -34,3 +34,26 @@ body{
     align-items: center;
     margin-top: 3em;
 }
+
+.proj1{
+    height: 330px;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid rgb(59, 56, 56);
+    background-color: transparent;
+    box-shadow: 1px 1px 14px rgb(0, 0, 0);
+    border-radius: 0.6em;
+    transition: all 0.3s ease-in-out 0s ;
+}
+.proj1:hover{
+    transform: scale(1.09,1.09);
+}
+.dark .proj1{
+    border: 1px solid white;
+    background-color: transparent;
+    box-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+.proj1 img{
+    height: 30%;
+    width: 100%;
+}
