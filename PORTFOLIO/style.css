@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+
+::selection{
+    color: yellow;
+    background-color: purple;
+}
+:root {
+    --background-light: white;
+    --background-dark: #020F1B;
+    --text-light: black;
+    --text-dark: #a0a0a0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background:linear-gradient(silver,white) ;
+    background: no-repeat;
+    min-height: 100vh;
+}
+#btn{
+    cursor: pointer;
+    border: none;
+    height: 1.2em;
+    border-radius: 8px;
+}
+.dark{
+    background:no-repeat;
+    height: 100vh;
+    background:linear-gradient(#071a2beb,#000000);
+    color:var(--text-dark);
+}
+.light{
+    background:linear-gradient(silver,white) ;
+    color:var(--text-light);
+    height: 100vh;
+}
+.para1{
+    color: white;
+    transition: all 0.2s ease-in-out 0s;
+    
+}
+.para2{
+    color: black;
+}
