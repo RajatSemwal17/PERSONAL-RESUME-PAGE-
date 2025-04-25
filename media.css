@@ -312,4 +312,20 @@
     .fa-calendar-days{
         color: #aaca0c;
     }
+.btnn{
+        height: 10px;
+        margin-left: 50px;
+        width: 80px;
+        font-size: 15px;
+        border-radius: 7px;
+        background-color: #960000;
+        color: #f0f0f0;
+        display: inline;
+        cursor: pointer;
+    }
+    .btnn:hover {
+        background-color: #b54e22;
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+    }
 
