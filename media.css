@@ -43,3 +43,62 @@
         border-radius: 20px;
         background: linear-gradient(#22177A,#605EA1 );
     }
+
+.photo{
+        height: 250px;
+        width: 250px;
+        margin-left: 25px;
+        border: 15px solid transparent;
+        background-image: url(pic.jpg);
+        background-size: cover;
+        transition: all 0.5s ease-in 0s;
+        background-repeat: no-repeat;
+        color: #00695c;
+    }
+    .photo:hover{
+        height: 250px;
+        width: 250px;
+        border-radius: 30px;
+        border-top-color: red;
+        border-bottom-color: red;
+        border-right-color: red;
+        border-left-color: red;
+        transform: scale(0.8,0.8);
+    }
+    .name{
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'Lato', sans-serif;
+        color: rgb(249, 254, 0);
+        border: 10px solid transparent;
+        text-align: center;
+    }
+    .name p{
+        margin-top: -15px;
+        margin-left: -90px;
+        font-weight: lighter;
+        font-size: 25px;
+        color: rgb(17, 0, 255);
+        font-family: "Mogra", system-ui;
+    
+    }
+    .icons{
+        margin-top: 15px;
+        margin-left: 0px;
+        font-size: 15px;
+        height: 30px;
+        padding: 5px;
+        height: 200px;
+    }
+    i{
+        margin-left: 10px;
+        color: #009688;
+        font-size: 18px;
+    }
+    .text{
+        color: #ffffff;
+        margin-left: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in 0s;
+    }
+}
