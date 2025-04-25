@@ -76,3 +76,21 @@ body{
 .dark #projCont{
     color: white;
 }
+#open{
+    background-color: #0096FF;
+    padding:1em 1.2em;
+    font-size: 1em;
+    margin-left: 11em;
+    margin-top: 1.4em;
+    border: none;
+    transition: all 0.2s ease-in-out 0s;
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+#open a{
+    color: white;
+
+}
+#open:hover{
+    background-color: rgba(0, 0, 245, 0.704);
+}
