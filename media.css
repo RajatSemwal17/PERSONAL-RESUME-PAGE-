@@ -377,6 +377,17 @@
         height: 100px;
         width: 255px;
     }
+ .ct-4{
+        height: 250px;
+        width: 302px;
+        background-image:url(wss.jpg);
+        background-size: cover;
+        margin-top: 50px;
+        border-radius: 20px;
+        border: 10px solid transparent;
+        box-shadow: 5px 5px 20px grey;
+    }
+
 
 
 
