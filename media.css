@@ -349,6 +349,16 @@
         border-radius: 20px;
         background: linear-gradient(90deg,rgb(224, 224, 44) 50%,rgb(166, 212, 38) 50%);
     }
+.cert i{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .edu{
+        color: #757575;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
 
 
 
