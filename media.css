@@ -1,1 +1,45 @@
 /* PASTE YOU CODE HERE */
+@media(max-width:900px){
+    .main_body{
+        display: block;
+        gap: 30px;
+        height: 2800px;
+        /* background:linear-gradient(rgb(215, 201, 201),rgb(255, 255, 255)); */
+    }
+    .textEff{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+        color: #757575;
+    }
+    .fa-moon{
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+    }
+    .fa-sun{
+        font-size: 30px;
+        color: yellow;
+    }
+    #moon{
+        padding: 20px;
+        cursor: pointer;
+        margin-right: 150px;
+    }
+    /* CONTAINER-1 styling */
+
+    .container-1{
+        height: 1390px;
+        width: 302px;
+        /* border: 4px solid black; */
+        margin-top: 120px;
+        margin-left: 30px;
+        box-shadow: 3px 3px 20px rgb(140, 124, 124);
+        border-radius: 20px;
+        background: linear-gradient(#22177A,#605EA1 );
+    }
