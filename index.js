@@ -50,4 +50,13 @@ function downloadImage(imgpath, fileName) {
     a.click();
 }
     
+
+// TYPE-TEXT : typed js 
+
+var typed = new Typed(".auto-type",{
+    strings: ["Web Developer", "JavaScript Enthusiast", "Frontend Engineer",],
+    typeSpeed:50,
+    backSpeed:50,
+    looped:true
+})    
     
