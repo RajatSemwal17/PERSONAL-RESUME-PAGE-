@@ -452,7 +452,105 @@
         color: #cc00ff;
     }
 }
+.contactUs p{
+        font-size: 20px;
+    }
+    .contactUs li{
+        margin-top: 20px;
+        font-weight: 500;
+        transition: 0.2s ;
+        margin-bottom: 30px;
+        color: white;
+        font-size: 15px;
+    }
+    .contactUs li:hover{
+        color: yellow;
+    }
+    .quickLinks li a{
+        text-decoration: none;
+        color: white;    
+        transition: 0.2s;
+        font-size: 17px;
+    }
+    #ftimg{
+        display: none;
+    }
+    .quickLinks li a:hover{
+        text-decoration: none;
+        color: rgb(255, 0, 0);
+    }
+    .quickLinks{
 
+        margin-bottom: 20px
+    }
+    .quickLinks li{
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .followUs{
+        /* margin-bottom: 200px; */
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+    }
+    .followUs li p{
+        font-size: 17px;
+    }
+    .followUs li i{
+        font-size: 17px;
+        color: red;
+        transition: 0.3s;
+        /* margin-left: 30px; */
+    }
+    .followUs li i:hover{
+        font-size: 40px;
+        color: rgb(224, 231, 20);
+    }
+    .end{
+        margin-bottom: 150px;
+        background-color: orange;
+        height: 70px;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        font-weight: 900;
+    }
+    .line{
+        height: 0px;
+    }
+
+    .carousel-inner img {
+        height: 300px !important;
+      }
+
+      /* ABOUT */
+      .about{
+        height: 780px;
+        width: 290px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background:linear-gradient( 68deg,#a674d2 50%,#b318f5 50%);
+        font-size: 17px;
+        /* margin-top: 120px; */
+        margin-left: 15px;
+        padding: 20px;  
+        font-family: "Lato", sans-serif;
+    }
+
+    /* SKILLS: */
+    .skills{
+        height: 970px;
+        width: 280px;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        background: linear-gradient(to bottom,rgb(255, 0, 43),rgb(255, 230, 0));
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding: 20px;
+        font-family: "Playwrite GB S", cursive;
+    }
 
 
 
