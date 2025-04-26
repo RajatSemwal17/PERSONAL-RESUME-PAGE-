@@ -29,3 +29,19 @@ Mode.addEventListener("click", () => {
         localStorage.setItem("mode", "light");
     }
 });
+
+
+// ReachOut click handler
+let reachOut = document.querySelector("#reachOut");
+reachOut.addEventListener("click", () => {
+    location.href = "https://mail.google.com/mail/?view=cm&fs=1&to=rajatsemwal17@gmail.com";
+});
+
+
+const hamburgerMenu = document.getElementById("hamburger-menu");
+const navLinks = document.getElementById("nav-links");
+
+hamburgerMenu.addEventListener("click", () => {
+    navLinks.classList.toggle("mobile-menu-active");
+});
+
