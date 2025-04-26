@@ -151,7 +151,7 @@ h3 {
     background-color: rgb(136, 136, 232);
 }
 
-more-info {
+.more-info {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-in-out;
