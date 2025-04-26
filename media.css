@@ -395,7 +395,62 @@
         outline: none;
         font-weight: 900;
     }
+    /* RAJAT */
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    .modal-body{
+        color: rgb(24, 164, 50);
+        word-spacing: 5px;
+        font-weight: 700;
+        font-size: 18px;
+        font-family: "Bebas Neue", serif;
+        text-shadow:2px 2px 2px  red;
+    }
+.main{
+    background-color: black;
+}
+#exampleModalLabel{
+    color: red;
+    font-weight: 900;
+}
+    #coding{
+        height: 150px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 5%;
+        box-shadow: 5px 5px 20px aqua;
+        border-radius: 20px;
+    }
+    .btn-close{
+        background-color: rgb(0, 255, 255);
+    }
 
+
+    /* FOOTER: */
+    footer{
+        margin-top: 1860px;
+        background-image: url(FOOTERIMAGE.jpg);
+        background-size: contain;
+        height:630px ;
+        color: white;
+    }
+    .imgg {
+        background-image: url(coder.jpg);
+        background-size: cover;
+        height: 0px;
+        width:0px;
+        border-radius: 10%;
+    }
+    .foot{
+        display: block;
+        justify-content:space-around ;
+        align-items: center;
+        padding: 30px;
+        font-size: 25px;
+        list-style-type: none;
+        font-weight: 900;
+        cursor: pointer;
+        color: #cc00ff;
+    }
 }
 
 
