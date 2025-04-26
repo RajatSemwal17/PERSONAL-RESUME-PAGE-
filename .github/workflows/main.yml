@@ -1,0 +1,16 @@
+name: Simple Test Workflow
+
+# When to run the workflow
+on: [push]
+
+# What jobs to perform
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v2
+
+      - name: Run a simple command
+        run: echo "🎯 Hello RS17! Your workflow ran successfully."
