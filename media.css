@@ -101,8 +101,7 @@
         cursor: pointer;
         transition: all 0.3s ease-in 0s;
     }
-}
-.text:hover{
+    .text:hover{
         color:rgb(255, 0, 225);
         font-size: 17px;
         
@@ -396,6 +395,8 @@
         outline: none;
         font-weight: 900;
     }
+
+}
 
 
 
