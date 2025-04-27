@@ -157,6 +157,13 @@
         gap: 1em;
         padding: 1em 0;
     }
+    .light #nav-links{
+        background: black;
+    }
+    .light nav ul li a{
+        color: white;
+        font-size: 1.2em;
+    }
 
 
 
