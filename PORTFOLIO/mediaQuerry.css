@@ -71,4 +71,14 @@
         right: 7em;
         top: 5em;
     }
-
+    #aboutCont{
+        position: absolute;
+        top: 15em;
+        /* letter-spacing: 0.1em; */
+        margin-right: 1em;
+        color: white;
+        margin-left: 1em;
+        font-size: 1.3em;
+        font-family: "Agdasima", serif;
+    }
+    
