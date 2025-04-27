@@ -93,4 +93,25 @@
     .proj{
         flex-wrap: wrap;
     }
+    .proj1{
+        height: 330px;
+        width: 300px;
+        padding: 15px;
+        border: 1px solid rgb(59, 56, 56);
+        background-color: transparent;
+        box-shadow: 1px 1px 14px rgb(0, 0,  0);
+        border-radius: 0.6em;
+        transition: all 0.3s ease-in-out    0s ;
+        margin-bottom: 2em;
+    }
+    #h1{
+        font-size: 1.8em;
+        text-align: center;
+        margin-top: 1em;
+        font-family: "Orbitron", serif;
+        color: rgba(25, 22, 22, 0.778);
+        letter-spacing: 0.4em;
+        text-decoration: underline;
+    }
+
 
