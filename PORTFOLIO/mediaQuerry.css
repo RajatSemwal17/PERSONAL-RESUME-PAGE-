@@ -81,4 +81,16 @@
         font-size: 1.3em;
         font-family: "Agdasima", serif;
     }
-    
+     #namee{
+        color: red;
+        letter-spacing: 0.3em;
+        font-size: 1em;
+        font-family: "Bowlby One", serif;
+    }
+
+    /* projects */
+
+    .proj{
+        flex-wrap: wrap;
+    }
+
