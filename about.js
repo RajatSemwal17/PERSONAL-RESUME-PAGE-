@@ -21,4 +21,7 @@ if (currMode === "dark") {
     // Change the icon from sun to moon (indicating light mode is active)
     moon.querySelector("i").classList.replace("fa-sun", "fa-moon");
 }
+ankit
 
+
+main
