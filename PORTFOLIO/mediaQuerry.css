@@ -133,6 +133,15 @@
         color:var(--text-light);
         height: 100vh;
     }
+#btn{
+        cursor: pointer;
+        border: none;
+        height: 2em;
+        position: relative;
+        width: 2em;
+        left: 45%;
+        border-radius: 8px;
+    }
 
 
 
