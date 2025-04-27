@@ -1,56 +1,3 @@
-
- footer{
-    background-image: url(FOOTERIMAGE.jpg);
-    background-size: contain;
-    height:440px ;
-    color: white;
-}
-.foot{
-    display: flex;
-    justify-content:space-around ;
-    align-items: center;
-    padding: 30px;
-    font-size: 25px;
-    list-style-type: none;
-    font-weight: 900;
-    cursor: pointer;
-    color: #cc00ff;
-}.imgg {
-    background-image: url(coder.jpg);
-    background-size: cover;
-    height: 300px;
-    width:340px;
-    border-radius: 10%;
-}
-.contactUs p{
-    font-weight: 900;
-    cursor: pointer;
-    color: #cc00ff;
-    font-size: 25px;
-    text-decoration: underline;
-}.contactUs li{
-    margin-top: 20px;
-    font-weight: 500;
-    transition: 0.2s ;
-    margin-bottom: 30px;
-    color: white;
-}
-.contactUs li:hover{
-    color: yellow;
-}
-.quickLinks li a{
-    text-decoration: none;
-    color: white;    
-    transition: 0.2s;
-}.quickLinks li a:hover{
-    text-decoration: none;
-    color: rgb(255, 0, 0);
-}
-.quickLinks li{
-    margin-top: 20px;
-    font-weight: 500;
-} 
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
@@ -120,7 +67,6 @@ h1{
 #moon i{
     transition: all 0.2s ease-in;
 }
-rajat
 /*  */
 .main_body{
     display: flex;
@@ -288,7 +234,7 @@ p{
     margin-top: 10px;
 
 }
-five{
+.five{
     height: 35px;
     width: 225px;
     background: linear-gradient(to right,red,orange);
@@ -361,9 +307,6 @@ five{
 
 .lang{
     margin-top: 27px;
-}
-foooter{
-    background-color: #000000;
 }
 /* CONTAINER-2 */
 .ct-2 i{
@@ -679,4 +622,105 @@ font-weight: 900;
     transform: scale(1.1);
     background-color: red;
 }
-main
+/* Footer */
+footer{
+    background-image: url(FOOTERIMAGE.jpg);
+    background-size: contain;
+    height:440px ;
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 30px;
+    font-size: 25px;
+    list-style-type: none;
+    font-weight: 900;
+    cursor: pointer;
+    color: #cc00ff;
+}
+.imgg {
+    background-image: url(coder.jpg);
+    background-size: cover;
+    height: 300px;
+    width:340px;
+    border-radius: 10%;
+}
+.contactUs p{
+    font-weight: 900;
+    cursor: pointer;
+    color: #cc00ff;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.contactUs li{
+    margin-top: 20px;
+    font-weight: 500;
+    transition: 0.2s ;
+    margin-bottom: 30px;
+    color: white;
+}
+.contactUs li:hover{
+    color: yellow;
+}
+.quickLinks li a{
+    text-decoration: none;
+    color: white;    
+    transition: 0.2s;
+}
+.quickLinks li a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.quickLinks li{
+    margin-top: 20px;
+    font-weight: 500;
+}
+.followUs{
+    /* display: flex; */
+    /* margin-bottom: 200px; */
+    font-size: 30px;
+    gap: 20px;
+}
+.followUs li p{
+    font-weight: 900;
+    cursor: pointer;
+    color: #cc00ff;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.followUs li i{
+    font-size: 40px;
+    color: red;
+    transition: 0.3s;
+    margin-left: 30px;
+    padding: 20px;
+}
+.followUs li i:hover{
+    font-size: 40px;
+    color: rgb(224, 231, 20);
+}
+#ftimg{
+    height: 100px;
+}
+.end{
+    background-color: orange;
+    height: 70px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+}
+.end i{
+    color: red;
+    font-size: 25px;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+}
+.line{
+    height: 300px;
+    border: 1px solid rgb(69, 69, 69);
+}
+

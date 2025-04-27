@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+
+::selection{
+    color: yellow;
+    background-color: purple;
+}
+:root {
+    --background-light: white;
+    --background-dark: #020F1B;
+    --text-light: black;
+    --text-dark: #a0a0a0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background:linear-gradient(silver,white) ;
+    background: no-repeat;
+    min-height: 100vh;
+}
+#btn{
+    cursor: pointer;
+    border: none;
+    height: 1.2em;
+    border-radius: 8px;
+}
+.dark{
+    background:no-repeat;
+    height: 100vh;
+    background:linear-gradient(#071a2beb,#000000);
+    color:var(--text-dark);
+}
+.light{
+    background:linear-gradient(silver,white) ;
+    color:var(--text-light);
+    height: 100vh;
+}
+.para1{
+    color: white;
+    transition: all 0.2s ease-in-out 0s;
+    
+}
+.para2{
+    color: black;
+}
+nav{
+    height: 60px;
+    border: 1px solid transparent;
+    border-bottom-color: rgba(139, 137, 137, 0.861);
+    font-family: "Raleway", serif;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+#name{
+    position: relative;
+    right: 30em;
+    font-weight: 900;
+    font-family: "Major Mono Display", serif;
+    background: linear-gradient(to right,white 40%,rgb(26, 1, 255) 50%);
+    background-clip: text;
+    color: transparent;
+    font-size: 2em;
+    display: block;
+}
+
+nav ul{
+    position: relative;
+    margin-right: 2em;
+    top: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3em;
+}
+nav ul li a{
+    font-size: 1.20em;
+    font-weight: 430;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out 0s;
+}
+nav ul li a{
+    color: black; 
+}
+
+.dark nav ul li a{
+    color: #ffffff; 
+}
+.dark nav ul li a:hover{
+    color: rgb(36, 188, 69);
+}
+nav ul li a:hover{
+    color: rgb(36, 117, 188);
+}
+#hamburger-menu{
+    font-size: 1.5em;
+    position: absolute;
+    color: red;
+    top: 0.6em;
+    right: 2em;
+    display: none;
+}
+.main,.main2,#reachOut{
+   display: flex;
+   justify-content:center;
+   
+}
+.main{
+    margin-top: 7em;
+    font-size: 2.4em;
+    font-family: "Orbitron", serif;
+    text-decoration: underline;
+    letter-spacing: 0.19em;
+}
+.dark .main{
+    color: white;
+}
+.main2{
+    font-family: "Nixie One", serif;
+    margin-top: 0.75em;
+    font-size: 1.5em;
+    color: rgb(8, 2, 40);
+}
+.dark .main2{
+    color: rgb(0, 255, 0);
+}
+#reachOut{
+    background-color: transparent;
+    height: 70px;
+    margin-top: 3em;
+    border: 2px solid rgba(87, 87, 235, 0.739);
+    display: flex;
+    border-radius: 0.2em;
+    padding: 1.8em;
+    justify-self: center;
+    align-items: center;
+    transition: all 0.23s ease-in-out
+    0s;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: "Rajdhani", serif;
+    font-weight: 700;
+    box-shadow:2px 2px 10px black;
+}
+#reachOut:hover{
+    background-color: rgba(87, 87, 235, 0.739);
+    color: white;
+}
+.dark #reachOut{
+    color: white;
+    box-shadow:1px 1px 7px white;
+}
+.dark #reachOut:hover{
+    color: rgb(255, 255, 255);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    gap: 2.5em;
+    font-size: 1.8em;
+}
+.icons a i{
+    color: rgb(27, 24, 24);
+    transition: all 0.2s ease-in-out 0s;
+}
+.dark .icons a i{
+    color: #a0a0a0;
+}
+.fa-instagram:hover{
+    color: rgb(212, 19, 51);
+    transform: scale(1.3,1.3);
+}
+.dark .fa-instagram:hover{
+    transform: scale(1.3,1.3);
+    color: rgb(202, 53, 78);
+}
+.fa-facebook:hover{
+    transform: scale(1.3,1.3);
+    color: rgb(19, 25, 212);
+}
+.dark .fa-facebook:hover{
+    transform: scale(1.3,1.3);
+    color: rgb(55, 53, 202);
+}
+.fa-linkedin:hover{
+    transform: scale(1.3,1.3);
+    color: rgb(110, 124, 208);
+}
+.dark .fa-linkedin:hover{
+    transform: scale(1.3,1.3);
+    color: rgb(110, 124, 208);
+}
+.fa-github:hover{
+    transform: scale(1.3,1.3);
+    color: rgb(202, 212, 19);
+}
+.dark .fa-github:hover{
+    transform: scale(1.3,1.3);
+    color: rgb(202, 199, 53);
+}
+
+.resume {
+    width: 350px;
+    padding: 1em;
+    border: 1px solid white;
+    transition:all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 4em;
+
+}
+.resume:hover{
+    background-color: rgb(57, 23, 144);
+}
+.resume a{
+    color: white;
+    font-size: 1.5em;
+    font-family: "Major Mono Display", serif;
+}
+.light .resume{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(209, 195, 252);
+}
+.light .resume:hover{
+    background-color: rgb(149, 116, 247);
+}
+.light .resume a{
+    color: black;
+    font-weight: 900;
+}
+
+@media(max-width:900px){
+    .resume {
+        width: 250px;
+        height: 30px;
+        padding: 1em;
+        border: 1px solid white;
+        border-radius: 1em;
+        transition:all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        margin-left: 10%;
+        margin-top: 2em;
+    
+    }
+    .resume a{
+        font-size: 1em;
+        font-family: "Major Mono Display", serif;
+    }
+    .light .resume{
+        border:none;
+        background-color: rgb(209, 195, 252);
+    }
+    .light .resume:hover{
+        background-color: rgb(149, 116, 247);
+    }
+    .light .resume a{
+        color: black;
+        font-weight: 900;
+    }
+}

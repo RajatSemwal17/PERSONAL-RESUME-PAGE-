@@ -42,4 +42,25 @@ download.addEventListener("click", () => {
 function getFileName(str) {
     return str.substring(str.lastIndexOf('/') + 1);
 }
+   
+function downloadImage(imgpath, fileName) {
+    let a = document.createElement('a');
+    a.href = imgpath;
+    a.download = fileName;
+    a.click();
+}
     
+
+// TYPE-TEXT : typed js 
+
+var typed = new Typed(".auto-type",{
+    strings: ["Web Developer", "JavaScript Enthusiast", "Frontend Engineer",],
+    typeSpeed:50,
+    backSpeed:50,
+    looped:true
+})    
+
+
+// loader
+
+
