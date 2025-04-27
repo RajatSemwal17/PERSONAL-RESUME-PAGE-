@@ -113,5 +113,20 @@
         letter-spacing: 0.4em;
         text-decoration: underline;
     }
+     .dark #projHead{
+        font-size: 1.1em;
+        margin-top: 1em;
+        font-weight: 900;
+        color: rgb(34, 255, 0);
+        text-decoration:rgba(26, 255, 0, 0.476) underline;  font-family: "Nixie One", serif;
+    }
+    
+    .dark{
+        background:no-repeat;
+        height: 100vh;
+        background:linear-gradient(#000000eb,#000000);
+        color:var(--text-dark);
+    }
+
 
 
