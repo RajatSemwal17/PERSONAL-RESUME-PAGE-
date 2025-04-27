@@ -164,6 +164,13 @@
         color: white;
         font-size: 1.2em;
     }
+    nav ul li a{
+        color: #050505; 
+    }
+    .dark #nav-links{
+        background: #ffffff;
+    }
+
 
 
 
