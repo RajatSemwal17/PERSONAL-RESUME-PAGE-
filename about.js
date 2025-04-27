@@ -1,5 +1,5 @@
 // Get the moon icon element (used for toggling theme)
-const moon = document.getElementById("moon");
+const moon = document.getElementById("toggle");
 
 // Get the <body> element to apply theme classes
 const body = document.querySelector("body");
