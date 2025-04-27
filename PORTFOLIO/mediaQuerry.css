@@ -63,3 +63,12 @@
         font-size: 2em;
 
     }
+    /* about */
+    #rajat{
+        height: 160px;
+        border-radius: 10px;
+        position: absolute;
+        right: 7em;
+        top: 5em;
+    }
+
