@@ -67,6 +67,7 @@ h1{
 #moon i{
     transition: all 0.2s ease-in;
 }
+/*  */
 .main_body{
     display: flex;
     gap: 30px;
@@ -233,3 +234,493 @@ p{
     margin-top: 10px;
 
 }
+.five{
+    height: 35px;
+    width: 225px;
+    background: linear-gradient(to right,red,orange);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.text1{
+    color: #757575;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    transition: all 0.3s ease-in 0s;
+}
+.text1:hover{
+    color:darkgreen;
+    font-size: 29px;
+}
+
+.six{
+    height: 35px;
+    width: 450px;
+    background-color:#e5dada;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    transition: all 0.4s ease-in 0s;
+    cursor: pointer;
+}
+.six:hover{
+    height: 35px;
+    width: 390px;
+    background-color:rgb(255, 0, 43);
+}
+.seven{
+    height: 35px;
+    width: 450px;
+    background-color:#e5dada;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    transition: all 0.4s ease-in 0s;
+    cursor: pointer;
+}
+.seven:hover{
+    height: 35px;
+    width: 240px;
+    background-color:#d9ff00;
+}
+.eight{
+    height: 35px;
+    width: 450px;
+    background-color:#e5dada;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    transition: all 0.4s ease-in 0s;
+    cursor: pointer;
+}
+.eight:hover{
+    height: 35px;
+    width: 120px;
+    background-color:#180578;
+}
+
+.lang{
+    margin-top: 27px;
+}
+/* CONTAINER-2 */
+.ct-2 i{
+    font-size: 50px;
+    margin-top: 200px;
+}
+.msg{
+    font-size: 50px;
+    color: #000000;
+    font-family: "Rampart One", sans-serif;
+    margin-left: 20px;
+    border:10px solid transparent;
+    transition: all 0.4s ease-in 0s;
+    cursor: pointer;
+}
+.msg:hover{
+    border-bottom-color: rgb(255, 0, 0);
+    
+}
+.opp{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: "Lato", sans-serif;
+    transition: all 0.3s ease-in 0s;
+    cursor: pointer;
+}
+.opp:hover{
+    color: black;
+}
+.txx{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size:25px;
+}
+.btnn{
+    height: 45px;
+    margin-left: 50px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: #009688;
+    color: #f0f0f0;
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+}
+.btnn:hover {
+    background-color: #00695c;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.para{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+    padding: 20px;
+    background-color: #cde3d244;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.container-3{
+    height: 900px;
+    width: 1100px;
+    /* border: 4px solid black;  */
+    margin-top: 30px;
+    box-shadow: 2px 2px 20px rgb(140, 124, 124);
+    border-radius: 20px;
+    margin-top: 150px;
+    background: linear-gradient(rgb(224, 224, 44),rgb(248, 145, 162));
+}
+.cert i{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 45px;
+}
+.edu{
+    color: #757575;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    height: 30px;
+    width: 50px;
+}
+.work{
+    background-image: url(work-exp.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 500px;
+    border-radius:30px;
+    border: 5px solid black;
+    margin-top: 40px;
+    margin-left: 40px;
+    transition: all 0.3s ease-in 0s;
+}
+.work:hover{
+    height: 300px;
+    width: 600px;
+}
+.ct-4{
+    height: 450px;
+    width: 500px;
+    background-image:url(wss.jpg);
+    background-size: cover;
+    margin-top: 220px;
+    border-radius: 20px;
+    border: 10px solid transparent;
+    box-shadow: 5px 5px 20px grey;
+}
+.btnnnn{
+    margin-top: 20px;
+    margin-left: 150px;
+    color:black;
+    padding: 20px;
+    background: linear-gradient(43deg,red 50%,rgb(244, 143, 92) 50%);
+    border: none;
+    outline: none;
+    font-weight: 900;
+}
+.btnnnn:hover{
+    background: linear-gradient(43deg,rgb(244, 143, 92) 50%,red 50%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.modal-body{
+    color: rgb(24, 164, 50);
+    word-spacing: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Bebas Neue", serif;
+    text-shadow:2px 2px 2px  red;
+}
+.main{
+background-color: black;
+}
+#exampleModalLabel{
+color: red;
+font-weight: 900;
+}
+#coding{
+    height: 250px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 9%;
+    box-shadow: 5px 5px 20px aqua;
+    border-radius: 20px;
+}
+.btn-close{
+    background-color: rgb(0, 255, 255);
+}
+.nav-bar{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    background: linear-gradient(to right,rgb(255, 255, 255),grey);
+    position: fixed;
+}
+.anchor{
+    color: #000000;
+    margin-left: 190px;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.2s ease-in 0s;
+}
+.anchor:hover{
+
+    border-top-color: rgb(69, 52, 144);
+    border-bottom-color: rgb(69,52,144);
+    color: rgb(255, 0, 230);
+}
+.fa-sliders{
+    color: blue;
+    font-size: 40px;
+    display: none;
+    transition:all 0.8s ease-in 0s;
+}
+.fa-sliders:hover{
+    transform: scale(1.2,1.4) rotate(360deg);
+}
+.loader{
+    height: 40px;
+    width:40px;
+    border: 10px solid black;
+    border-radius: 50%;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-top-color: rgb(251, 6, 6);
+    border-right-color: rgb(251, 6, 6);
+    transition: all 2s ease-in 0s;
+    animation: LOADER 0.5s ease-in-out 0s infinite alternate-reverse;
+}
+
+.portfolio{
+    border: 2px solid black;
+    width: 400px;
+    margin-bottom: 2em;
+    border-radius: 1.3em;
+    background-color: rgb(99, 138, 217);
+    padding:1em;
+    margin-left: 40%;
+    transition: all 0.6s ease-in-out 0s;
+    cursor: pointer;
+}
+.portfolio:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 30px rgb(17, 0, 255);
+    transform: rotate(360deg);
+}
+.portfolio a{
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    font-family: "Alumni Sans", sans-serif;
+}
+
+@keyframes LOADER{
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:900px){
+    .portfolio{
+        border: 2px solid black;
+        position: absolute;
+        width: 200px;
+        margin-top: 49em;
+        margin-bottom: 20em;
+        border-radius: 1.3em;
+        background-color: rgb(99, 138, 217);
+        padding:1em;
+        margin-left: 25%;
+        transition: all 0.6s ease-in-out 0s;
+        cursor: pointer;
+        height: 60px;
+    }
+    .portfolio a{
+        color: white;
+        font-size:1.4em;
+        text-decoration: none;
+        font-family: "Alumni Sans", sans-serif;
+    }
+    footer{
+        margin-top: 20em;
+    }
+}
+
+@media(max-width:1710px){
+    
+    .anchor{
+        font-size: 16px;
+        color: red;
+        display: none;
+    }
+    .nav-bar i{
+        display: block;
+    }
+}
+
+.butn{
+    height: 100px;
+    width: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    transition: all 0.2s ease-in 0s;
+}
+.butn:hover{
+    box-shadow: 5px 5px 50px rgb(0, 251, 255);}
+.butn i{
+    color: rgb(255, 0, 187);
+    text-align: center;
+    font-size: 35px;
+    transition: all 0.2s ease-in 0s;
+}
+.butn i:hover{
+    color: red;
+    font-size: 60px;
+} 
+#downloadBtn{
+    font-size: 20px;
+    background-color: rgb(255, 65, 96);
+    border-radius: 10px;
+    color: aliceblue;
+    font-family:Lato, sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    padding-right: 40px;
+    border: none;
+    font-weight: 900;
+    transition: transform 0.3s ease;
+    position: absolute;
+    right: 100px;
+    /* margin-top: 30px; */
+}
+
+#downloadBtn:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
+/* Footer */
+footer{
+    background-image: url(FOOTERIMAGE.jpg);
+    background-size: contain;
+    height:440px ;
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 30px;
+    font-size: 25px;
+    list-style-type: none;
+    font-weight: 900;
+    cursor: pointer;
+    color: #cc00ff;
+}
+.imgg {
+    background-image: url(coder.jpg);
+    background-size: cover;
+    height: 300px;
+    width:340px;
+    border-radius: 10%;
+}
+.contactUs p{
+    font-weight: 900;
+    cursor: pointer;
+    color: #cc00ff;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.contactUs li{
+    margin-top: 20px;
+    font-weight: 500;
+    transition: 0.2s ;
+    margin-bottom: 30px;
+    color: white;
+}
+.contactUs li:hover{
+    color: yellow;
+}
+.quickLinks li a{
+    text-decoration: none;
+    color: white;    
+    transition: 0.2s;
+}
+.quickLinks li a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.quickLinks li{
+    margin-top: 20px;
+    font-weight: 500;
+}
+.followUs{
+    /* display: flex; */
+    /* margin-bottom: 200px; */
+    font-size: 30px;
+    gap: 20px;
+}
+.followUs li p{
+    font-weight: 900;
+    cursor: pointer;
+    color: #cc00ff;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.followUs li i{
+    font-size: 40px;
+    color: red;
+    transition: 0.3s;
+    margin-left: 30px;
+    padding: 20px;
+}
+.followUs li i:hover{
+    font-size: 40px;
+    color: rgb(224, 231, 20);
+}
+#ftimg{
+    height: 100px;
+}
+.end{
+    background-color: orange;
+    height: 70px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+}
+.end i{
+    color: red;
+    font-size: 25px;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+}
+.line{
+    height: 300px;
+    border: 1px solid rgb(69, 69, 69);
+}
+

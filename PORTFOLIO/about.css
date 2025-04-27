@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+body{
+    height: 100vh;
+    background: no-repeat;
+}
+#rajat{
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    right: 3em;
+    top: 5em;
+    box-shadow: 2px 2px 20px white;
+}
+}
+.light #rajat{
+    box-shadow: 10px 10px 40px rgb(0, 0, 0);
+}
+#namee{
+    color: red;
+    letter-spacing: 0.3em;
+    font-size: 1.2em;
+    font-family: "Bowlby One", serif;
+
+}
+#aboutCont{
+    position: absolute;
+    top: 7em;
+    letter-spacing: 0.1em;
+    margin-right: 10em;
+    color: white;
+    margin-left: 4em;
+    font-size: 1.6em;
+    font-family: "Agdasima", serif;
+}
+.light #aboutCont{
+    color: black;
+}
+nav{
+    height: 60px;
+    border: 1px solid transparent;
+    border-bottom-color: rgba(139, 137, 137, 0.861);
+    font-family: "Raleway", serif;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+#name{
+    position: relative;
+    right: 30em;
+    font-weight: 900;
+    font-family: "Major Mono Display", serif;
+    background: linear-gradient(to right,white 40%,rgb(26, 1, 255) 50%);
+    background-clip: text;
+    color: transparent;
+    font-size: 1.5em;
+    display: block;
+}
