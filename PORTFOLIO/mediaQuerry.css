@@ -178,6 +178,16 @@
     #hamburger-menu {
         display: block; /* Show hamburger menu */
     }
+   #nav-links.mobile-menu-active {
+        display: flex;
+    }
+    #nav-about li a{
+        color: white;
+        font-size: 0.89em;
+        position: relative;
+        left: 1em;
+    }
+
 
 
 
