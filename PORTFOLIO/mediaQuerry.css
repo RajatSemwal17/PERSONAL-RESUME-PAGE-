@@ -170,6 +170,15 @@
     .dark #nav-links{
         background: #ffffff;
     }
+    .dark nav ul li a{
+        color: #000000; 
+        font-size: 1.2em;
+    }
+
+    #hamburger-menu {
+        display: block; /* Show hamburger menu */
+    }
+
 
 
 
