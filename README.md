@@ -4,9 +4,9 @@ This project is a creative and interactive login-based personal resume page desi
 
 🧑‍💻 Users are welcomed with a sleek login interface featuring username and password inputs, 🔒 an eye icon to toggle password visibility 👁, and social login options using Facebook, Google, and Twitter 🌐.
 
-🎨 The UI is powered with a gradient background, responsive design, and smooth animations, making it visually attractive on all screen sizes 📱💻. You’ve also added cool icons using Font Awesome and customized styling for a professional touch 🎯.
+🎨 The UI is powered with a gradient background, responsive design, and smooth animations, making it visually attractive on all screen sizes 📱💻. We have also added cool icons using Font Awesome and customized styling for a professional touch 🎯.
 
-🛡 Instead of a traditional boring login, you’re experimenting with a “🔑 enter the code to proceed” idea to add an extra layer of uniqueness and curiosity — making your portfolio feel like an exclusive experience! 🧠💡
+The user will have an amazing experience while visiting our website because of the unique and technological look instead of having boring and usual dynamicity.
 
 📁 After successful login, users are redirected to your resume or portfolio page, where you can showcase your skills, projects, and achievements.
 
