@@ -79,5 +79,5 @@ A sleek, dark-mode responsive login page that doubles as a gateway to my persona
 - ⚙️ Clean code structure with external JS & CSS
 
 ## 🎯 Purpose
-To demonstrate my frontend development skills in creating clean, functional, and stylish web interfaces. This project is both a learning experience and a live portfolio entry for personal and academic use.
-THIS IS A README FILE
+To demonstrate our frontend development skills in creating clean, functional, and stylish web interfaces. This project is both a learning experience and a live portfolio entry for personal and academic use.
+
